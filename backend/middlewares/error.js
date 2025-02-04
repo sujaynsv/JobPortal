@@ -26,3 +26,4 @@ export const errorMiddleware = (err,req,res,next)=>{
         err:err
     })
 }
+export default ErrorHandler;
